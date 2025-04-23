@@ -206,6 +206,7 @@ header {
     bottom: 0;
     right: 0;
     width: 200px;
-    pointer-events: none; /* pra não interferir com clique nos elementos */
+    pointer-events: none; 
+    
   
 }
