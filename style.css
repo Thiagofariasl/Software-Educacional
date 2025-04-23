@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     display: flex;
     font-family: Arial,  sans-serif;
@@ -188,3 +189,190 @@ header {
     transition: opacity 0.5s ease;
 }
 
+=======
+body {
+    display: flex;
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+
+}
+
+.sidebar {
+    width: 130px;
+    background-color: #1e63aa;
+    padding: 10px;
+    height:  100vh;
+    color: white;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.sidebar ul li {
+    padding: 15px 0; 
+    margin: 0 -10px; /* Corrige o espaçamento externo */
+    
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    width: calc(100% - 20px); /* Mantém a mesma largura */
+    
+}
+
+.sidebar ul li a img {
+    width: 165px;
+    height: auto;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+
+.sidebar ul li a:hover {
+    background-color: white;
+    color: #1e63aa;
+    border-radius: 0px;
+    padding: 15px;
+    width: 160px;
+    
+    
+    
+}
+
+.sidebar ul li a:hover img {
+    filter:   brightness(0) 
+
+}
+
+.sidebar, .sidebar ul li a, .sidebar ul li a img {
+    transition: all 0.3s ease;
+}
+
+.conteudo-principal {
+    flex-grow: 1;
+    padding: 40px;
+    text-align: center;
+    color: #2463a5;
+    
+    
+}
+
+header {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 5px solid #2463a5;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 8px 8px 0px #2463a5;
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin: 20px auto; 
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.texto {
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.texto h1 {
+    font-size: 45px;
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.buttons button {
+    background-color: white;
+    color: #2463a5;
+    border: 2px solid #2463a5;
+    padding: 10px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 8px;
+    transition: 0.3;
+    box-shadow: 3px 3px 0px #2463a5;
+    font-size: 30px;
+    position: relative;
+}
+
+.buttons button:hover {
+    background-color: #1e63aa; /* Azul igual ao sidebar */
+    color: white; /* Texto branco */
+    transform: translateY(-2px);
+}
+
+.buttons button:hover img {
+    filter:  brightness(0)    /* Escurece totalmente */
+    saturate(100%)   /* Mantém saturação */
+    invert(1)        /* Inverte para branco */
+    contrast(200%);  /* Aumenta o contraste */
+}
+
+
+
+.buttons img {
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+    transition: filter 0.3s ease; /* Transição suave para o filtro */
+    
+}
+
+
+.logo {
+    max-width: 300px;
+    height: auto;
+}
+
+.logo-novo-ensino-medio {
+    display: flex;
+    justify-content: center;
+    margin-top: 225px;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+>>>>>>> 3bd6549 (primeiro commit)
+>>>>>>> 51faa960af4809d050928b7b3a4af15c00ae50ee
