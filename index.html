@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,4 +42,61 @@
         </div>
     </div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+        
+            <li><a href="#">  <img src="assets/Icone Inicio2.png" alt="Inicio" class="ativar" cl></a></li>
+            <li><a href="#"> <img src="assets/Icone Instituição.png" alt="Instituição"></a></li>
+            <li><a href="#"> <img src="assets/Icone Docente.png" alt="Docente"></a></li>
+            <li><a href="login-discente.html" id="link-discente"><img src="assets/Icone Discente.png" alt="Discente"></a></li>
+            <li><a href="#"><img src="assets/Icone Sobre.png" alt="Sobre"></a></li>
+            <li><a href="#"><img src="assets/Icone Contato.png" alt="Contato"></a></li>
+        </ul>
+    </div>
+    <div class="conteudo-principal">
+        <header>
+            <div class="conteiner">
+                <img class="logo" src="assets/Logo.jpeg" alt="Logo e-Matrícula">
+                <div class="texto">
+                    <h1>Bem-vindo(a) ao e-Matrícula</h1>
+                    <p>Software para gerenciar matrículas alinhado ao Novo Ensino Médio, facilitando a organização curricular e a escolha de itinerários formativos.</p>
+                </div>
+            </div>
+        </header>
+        
+    
+        <div class="buttons">
+            <button> <img src="assets/Icone instituição sem texto.png" alt="Instituição">Instituição</button>
+            <button><img src="assets/Icone docente sem texto.png" alt="Docente">Docente</button>
+            <button><img src="assets/Icone discente sem texto.png" alt="dicente">Discente</button>
+        </div>
+
+        <div class="logo-novo-ensino-medio">
+            <img src="assets/Logo novo ensino medio.jpeg" alt="logo-novo-ensino-medio">
+        </div>
+    </div>
+
+    <script>
+       const linkDiscente = document.getElementById('link-discente');
+
+        linkDiscente.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.body.classList.add('fade-out');
+            setTimeout(() => {
+                window.location.href = this.href;
+            }, 500); // tempo da transição
+        });
+    </script>
+</body>
+>>>>>>> 3bd6549 (primeiro commit)
 </html>
