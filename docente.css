@@ -32,7 +32,7 @@ body {
 
 .sidebar ul li {
     padding: 15px 0; 
-    margin: 0 -10px; /* Corrige o espaçamento externo */
+    margin: 0 -10px; 
     
 }
 
@@ -44,7 +44,7 @@ body {
     justify-content: center;
     gap: 10px;
     font-size: 16px;
-    width: calc(100% - 20px); /* Mantém a mesma largura */
+    width: calc(100% - 20px); 
     
     
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .sidebar ul li a:hover img {
-    filter: brightness(0) invert(1); /* Transforma ícones em branco */
+    filter: brightness(0) invert(1); 
 }
 
 
