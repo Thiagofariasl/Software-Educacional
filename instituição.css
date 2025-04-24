@@ -9,7 +9,7 @@ body {
 }
 
 .sidebar {
-    width: 120px;
+    width: 130px;
     background-color: white;
     padding: 10px;
     height:  100vh;
@@ -27,7 +27,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: -20px;
-    
+    margin: 0;
 }
 
 .sidebar ul li {
@@ -50,7 +50,7 @@ body {
 }
 
 .sidebar ul li a img {
-    width: 110px;
+    width: 135px;
     height: auto;
     vertical-align: middle;
     align-items: center;
@@ -130,10 +130,10 @@ header {
 
 .login-box {
     background-color: white;
-    max-width: 500px;
-    margin: 60px auto;
-    padding: 10px;
-    border-radius: 30px;
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 20px;
     text-align: center;
     box-shadow: 5px 5px 0px #1e63aa;
 }
@@ -154,7 +154,7 @@ header {
 
 .login-box input {
     width: 90%;
-    padding: 15px;
+    padding: 20px;
     margin-top: 5px;
     border: 1px solid #aaa;
     border-radius: 5px;
@@ -207,5 +207,6 @@ header {
     right: 0;
     width: 200px;
     pointer-events: none; 
+    
   
 }

@@ -48,7 +48,7 @@ body {
 }
 
 .sidebar ul li a img {
-    width: 130px;
+    width: 165px;
     height: auto;
     vertical-align: middle;
     align-items: center;
@@ -64,7 +64,7 @@ body {
     color: #1e63aa;
     border-radius: 0px;
     padding: 15px;
-    width: 110px;
+    width: 160px;
     
     
     
@@ -90,13 +90,13 @@ body {
 
 header {
     background-color: #ffffff;
-    padding: 10px;
+    padding: 60px;
     border: 5px solid #2463a5;
     border-radius: 20px;
     position: relative;
     box-shadow: 8px 8px 0px #2463a5;
     margin-bottom: 50px;
-    max-width: 1009px;
+    max-width: 200px;
     margin: 20px auto; 
 }
 
@@ -132,7 +132,7 @@ header {
     background-color: white;
     color: #2463a5;
     border: 2px solid #2463a5;
-    padding: 10px 30px;
+    padding: 20px 80px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
@@ -180,7 +180,7 @@ header {
 .logo-novo-ensino-medio {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 225px;
 }
 
 .fade-out {
