@@ -1,10 +1,11 @@
 body {
     display: flex;
+    flex-direction: row;
     font-family: Arial,  sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    overflow: hidden;
+    
 
 }
 
@@ -79,112 +80,63 @@ body {
     transition: all 0.3s ease;
 }
 
+
 .conteudo-principal {
-    flex-grow: 1;
-    padding: 40px;
-    text-align: center;
-    color: #2463a5;
-    
-    
+    margin-left: 120px;
+    margin-top: 110px;
+    padding: 20px;
 }
-
-header {
-    background-color: #ffffff;
-    padding: 60px;
-    border: 5px solid #2463a5;
-    border-radius: 20px;
-    position: relative;
-    box-shadow: 8px 8px 0px #2463a5;
-    margin-bottom: 50px;
-    max-width: 200px;
-    margin: 20px auto; 
-}
-
-.conteiner {
+.toposidebar {
+    background-color: #1e63aa;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    padding: 0 50px;
+    height: 110px;
 }
 
-.conteiner img {
-    width: 250px;
+.toposidebar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
 }
 
-.texto {
-    text-align: left;
+.toposidebar ul li a {
+    color: white;
+    text-decoration: none;
     font-size: 20px;
-
-}
-
-.texto h1 {
-    font-size: 45px;
-    margin: 5px 0;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
-
-.buttons button {
-    background-color: white;
-    color: #2463a5;
-    border: 2px solid #2463a5;
-    padding: 20px 80px;
-    font-size: 16px;
     font-weight: bold;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    gap: 10px;
-    border-radius: 8px;
-    transition: 0.3;
-    box-shadow: 3px 3px 0px #2463a5;
-    font-size: 30px;
-    position: relative;
-    
 }
 
-.buttons button:hover {
-    background-color: #1e63aa; 
-    color: white; 
-    transform: translateY(-2px);
-}
-
-.buttons button:hover img {
-    filter:  brightness(0)    
-    saturate(100%)   
-    invert(1)       
-    contrast(200%);  
-}
-
-
-
-.buttons img {
-    width: 80px;
+.logo-topo {
+    width: 120px;
     height: auto;
-    object-fit: contain;
-    transition: filter 0.3s ease; 
-    
+    filter: brightness(0) invert(1);
 }
 
-
-.logo {
-    max-width: 300px;
-    height: auto;
-}
-
-.logo-novo-ensino-medio {
+.cards {
     display: flex;
+    gap: 20px;
+    padding: 20px;
     justify-content: center;
-    margin-top: 225px;
+    flex-wrap: wrap;
+    
+
 }
 
-.fade-out {
-    opacity: 0;
-    transition: opacity 0.5s ease;
+.card {
+    background-color: white;
+    border: 2px solid #1e63aa;
+    box-shadow: 6px 6px 0px #1e63aa;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+}
